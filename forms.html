@@ -7,7 +7,8 @@
 </head>
 <body>
     <fieldset>
-        <form action="#" name="" target="_self" method="get">
+        <center>
+            <form action="./response.html" name="" target="_self" method="get">
             <label for="name">UserName:</label>
             &nbsp; &nbsp;
             <input type="text" name="name" id="name" placeholder="Enter your Name" required>
@@ -59,9 +60,38 @@
                 <option value="C++">C++</option>
                 <option value="JAVA">JAVA</option>
                 <option value="Python">Python</option>
-
             </select>
+
+            <br><br>
+
+            <label for="tel">Phone :</label>
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            <input type="tel" name="tel" id="tel" placeholder="Enter your Phone no.">
+
+            <br><br>
+
+            <label for="add">Address :</label>
+            &nbsp; &nbsp; &nbsp;
+            <textarea name="add" id="add"></textarea>
+
+            <br><br>
+
+            <label for="attempt">Attempts : </label>
+            &nbsp; &nbsp; 
+            <input type="number" name="attempt" id="attempt">
+
+            <br><br>
+
+            <label for="resume">Upload Resume :</label>
+            &nbsp; &nbsp;
+            <input type="file" name="resume" id="resume">
+
+            <br><br>
+
+            <input type="submit" value="Sumit form">
+            <input type="reset">
         </form>
+        </center>
     </fieldset>
 </body>
 </html>
